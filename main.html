@@ -1,0 +1,207 @@
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Warning! Fake News</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" href="media/logo.png" type="image/x-icon">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script> 
+        <script type="text/javascript" src="iZoom.js"></script> 
+        <script type="text/javascript">
+            $('document').ready(function(){
+                $('#Giornale').iZoom({borderColor:'#f00', borderWidth: '3px', diameter:'200'});
+            });
+        </script>
+    </head>
+    <body>
+        <!--sezione header-->
+        <header>
+            <hgroup>
+                <h1>Warning! Fake News</h1>
+            </hgroup>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="media/pericolo.png" height="50vh">
+        </header>
+        <!--sezione contenuto-->
+        <div id="contenuto">
+            <!--introduzione-->
+            <video width="100%" autoplay muted loop id="videoricerche">
+                <source src="media/News - 45058.mp4" type="video/mp4">
+            </video>
+            <script>
+                var vid = document.getElementById("videoricerche");
+                vid.playbackRate = 0.5;
+            </script>
+            <p id="testoimg">Quando si naviga sul web, ci si può imbattere frequentemente in <b>Fake News</b>.
+            <br>Oggi, purtroppo, far circolare Fake News è molto più semplice di quanto possa sembrare.
+            <br>Queste notizie circolano soprattutto all'interno dei social e sono rese credibili dalle circostanze
+             realistiche</p>
+
+            <!--confronto-->
+            <p class="paragrafo">Di seguito presentiamo alcuni esempi di fake news:</p>
+            <div style="height: 3vw;"></div>
+            <div id="Jackson">
+                <div>
+                    <img src="media/Michael-jackson.jpg" id="img-Jackson">
+                </div>
+                <div>
+                    <p id="testo-Jackson">
+                        <b>Michael Jackson è ancora vivo</b><br>
+                        Secondo un video pubblicato nel 2014 dal canale Youtube "BeLIEve", Michael Jackson è ancora vivo ed è fuggito a Los Angeles.
+                        La sua morte misteriosa, purtroppo, è ancora oggi oggetto di discussione<br>
+                        Fonte: <a href="https://youtu.be/0NjtoNQoPEg">YouTube</a>
+                    </p>
+                </div>
+            </div>
+            <div class="spaziatore"></div>
+
+            <div id="Anatre">
+                <div id="div-testo-anatre">
+                    <p id="testo-anatre">
+                        <b>Le anatre attendono il semaforo verde</b><br>
+                        Avete visto questo video delle anatre che aspettano il semaforo verde prima di attraversare? È diventato virale, con migliaia di views
+                        su Twitter e più di 2,5 milioni di views su Facebook. Purtorppo, però, il video è totalmente fake, le anatre sono state infatti generate
+                        al computer.<br>
+                        Fonte: <a href="https://gizmodo.com/this-viral-video-of-ducks-waiting-for-a-green-light-to-1826133011">Gizmodo</a>
+                    </p>
+                </div>
+                <div style="max-height: fit-content;">
+                    <video id="video-anatre" autoplay muted loop>
+                        <source src="media/Attraversamento-anatre.mp4" type="video/mp4">
+                        <source src="media/Attraversamento-anatre.webm" type="video/webm">
+                    </video>
+                </div>
+                <div>
+                    <video id="video-anatre-prova" autoplay muted loop>
+                        <source src="media/Attravesamento-anatre-prove.mp4" type="video/mp4">
+                        <source src="media/Attravesamento-anatre-prove.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="spaziatore"></div>
+
+            <div id="Musulmana">
+                <div>
+                    <img src="media/Bambina-musulmana.jpg" id="img-musulmana">
+                </div>
+                <div>
+                    <p id="testo-musulmana">
+                        <b>Bambina musulmana di nove anni data in matrimonio e violentata</b><br>
+                        Questa fake news ha imperversato in tutta Italia e, in particolare
+                        nella città di Padova. Ciò che ha sorpreso è il fatto che
+                        il famoso sito web VOX, noto come creatore di fake news, negasse fortemente la falsità della notizia,
+                        cercando di fornire alcuni elementi e dettagli per supportarne la veridicità<br>
+                        Fonte: <a href="https://voxnews.info/2017/11/22/notizia-confermata-bimba-9-anni-data-in-sposa-e-stuprata-a-padova/">VOX</a>
+                    </p>
+                </div>
+            </div>
+
+            <!--Decalogo-->
+            <p class="paragrafo">Come abbiamo appena visto, le fake news possono riguardare ogni ambito dell'informazione ma, in particolare, possono 
+            condizionare le opinioni e le scelte delle persone: è proprio questo l'obiettivo della divulgazione di notizie infondate.</p>
+
+            <p class="paragrafo">Allora come possiamo evitare di essere ingannati?<br>Ecco qua alcune semplici regole da seguire per comprendere
+            se la notizia che si sta leggendo è una fake news:</p>
+            
+            <div class="parent">
+                <div class="child">
+                    <img src="media/Regola-1.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">La notizia viene da fonti attendibili?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-2.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Hai visto la notizia anche su altri siti o testate?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-3.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">La grafica ha qualcosa che non ti convince?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-4.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Osserva le immagini: sono fotomontaggi?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-5.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Hai letto tutto l'articolo?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-6.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Hai controllato data e ora della pubblicazione?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-7.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Hai controllato l'indirizzo web?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-8.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">La notizia vuole venderti qualcosa?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-9.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">C'è la spunta blu?</p>
+                </div>
+                <div class="child">
+                    <img src="media/Regola-10.png" align="left" class="img-regole-mediaset">
+                    <p class="testo-regole-mediaset">Prima di condividere, verfica.</p>
+                </div>
+            </div>
+            <p style="font-family: Calibri; color: white; font-size: 4vh;">
+                Fonte: <a style="color: orange;" href="https://www.mediasetplay.mediaset.it/article/mediasetplay/mediasethaacuoreilfuturo/io-non-la-bevo_SE000000000926_a21332?redirected=true">Io non la Bevo - Mediaset</a>
+            </p>
+
+            <!--Giornale-->
+            <p class="paragrafo">Facciamo una prova!</p>
+            <div id="contenitore-giornale">
+                <img src="media/Giornale.png" id="Giornale">
+                <div id="testo-giornale">
+                    <p>Analizziamo questa notizia del quotidiano TGcom24 e cerchiamo di capire se è attendibile o meno:</p>
+                    <ul>
+                        <li>
+                            La notizia è consultabile anche su altri siti web, come:
+                            <ul>
+                                <li><a style="color: orange;" href="https://www.repubblica.it/cronaca/2021/04/22/news/ancona_soluzione_fisiologica_al_posto_del_vaccino_indagato_un_medico-297530968/">la Repubblica</a></li>
+                                <li><a style="color: orange;" href="https://www.ansa.it/marche/notizie/2021/04/22/soluzione-fisiologica-al-posto-del-vaccino-medico-indagato-_08842cab-8789-4630-a6f7-36d201ff9dd3.html">Ansa</a></li>
+                                <li><a style="color: orange;" href="https://www.lastampa.it/cronaca/2021/04/22/news/soluzione-fisiologica-al-posto-del-vaccino-medico-indagato-ad-ancona-al-vaglio-una-trentina-di-casi-1.40183724">La Stampa</a></li>
+                                <li><a style="color: orange;" href="https://www.ilmessaggero.it/salute/storie/ancona_soluzione_fisiologica_vaccino_medico_indagato_news_22_aprile_2021-5915381.html">Il Messagero</a></li>
+                            </ul>
+                        </li>
+                        <li>La grafica non è sospetta</li>
+                        <li>Le immagini non sembrano essere fotomontaggi</li>
+                        <li>Sono riportate la data e l'ora della pubblicazione</li>
+                        <li>
+                            L'indirizzo web della pagina non ha nulla di sospetto
+                            <img style="width: 100%;" src="media/Url-giornale.png">
+                        </li>
+                        <li>La notizia non sembra avere come scopo la vendita di qualsiasi prestazione</li>
+                    </ul>
+                    <p>Da ciò si può dedurre che la notizia è attendibile.<br>Fonte: <a style="color: orange;" href="https://www.tgcom24.mediaset.it/cronaca/marche/ancona-soluzione-fisiologica-al-posto-del-vaccino-medico-indagato_31324096-202102k.shtml">TGcom24</a></p>
+                </div>
+            </div>
+
+            <!--Fake Off-->
+            <div id="Fake-off">
+                <div>
+                    <p class="paragrafo" id="testo-fake-off">
+                        Se volete allenare le vostre capacità da smascheratori di fake news vi consigliamo di installare l'app sviluppata dal
+                        progetto <a style="color: orange;" href="https://www.fake-off.eu/it/">Fake off</a>. L'app include due modalità: un quiz e un detective game.
+                        Lo scopo del gioco è sensibilizzare sull'argomento delle fake news e imparare a gestirle. L'app si può scaricare su 
+                        Google Play a <a style="color: orange;" href="https://play.google.com/store/apps/details?id=org.fakeoff">questo link</a> e su App Store
+                        a <a style="color: orange;" href="https://apps.apple.com/it/app/project-fake-off/id1496765847">questo link</a>.
+                    </p>
+                </div>
+                <div>
+                    <img src="media/detective.png" align="right" id="img-fake-off">
+                </div>
+            </div>
+            <div id="spaziatore"></div>
+        </div>
+        <!--Fine contenuto-->
+
+        <!--sezione footer-->
+        <footer id="footer" class="footer__wrapper">
+            <div class="colophon">
+                <a href="https://www.iisve.it/" style="margin: 0.5%;"><img src="media/Logo-Volterra.jpg" style="height: 50px;"></a>
+                <p id="colophon">Lenci Claudio, Berardinelli Daniele, Di Somma Francesco D'Assisi</p>
+            </div>
+        </footer>
+    </body>
+</html>
