@@ -4,7 +4,7 @@ body
     margin: 0%;
     /*background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,9,130,1) 100%);*/
     background-color: #000dff;
-    background-image: url(media/Cornered-Stairs.svg);
+    background-image: url(Cornered-Stairs.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ img
     width: 75%;
     height: 85%;
     margin: 0px;
-    background-image: url(media/contenitore-testo.png);
+    background-image: url(contenitore-testo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     color: #000000;
@@ -152,7 +152,7 @@ img
     padding-right: 20%;
     font-size: 2vw;
     color: #000000;
-    background-image: url(media/contenitore-testo-1.png);
+    background-image: url(contenitore-testo-1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: justify;
@@ -192,7 +192,7 @@ img
     width: 75%;
     height: 88%;
     margin: 0px;
-    background-image: url(media/contenitore-testo.png);
+    background-image: url(contenitore-testo.png);
     background-repeat: no-repeat;
     background-size: 100%;
     color: #000000;
