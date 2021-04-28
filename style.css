@@ -233,7 +233,7 @@ tr, td
 
 .child
 {
-    height: 100px;
+    height: 110px;
     background-color: orange;
     padding: 30px;
     transform: 
@@ -266,7 +266,7 @@ tr, td
 .testo-regole-mediaset
 {
     display: inline;
-    font-size: 200%;
+    font-size: 180%;
     padding-right: 2%;
 }
 
